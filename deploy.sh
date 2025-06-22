@@ -1,9 +1,9 @@
 #!/bin/bash
 # 配置したい設定ファイル
-dotfiles=(.zshrc .tmux.conf)
+dotfiles=(.zshrc .tmux.conf .p10k.zsh)
 
 # .zshrc と .tmux.conf という設定ファイルのシンボリックリンクを
 # ホームディレクトリ直下に作成する
 for file in "${dotfiles[@]}"; do
-        ln -svf $file ~/
+        ln -svf ~/dotfiles/${file} ~/${file}
 done
