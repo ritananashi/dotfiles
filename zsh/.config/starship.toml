@@ -22,6 +22,7 @@ $line_break\
 $character"""
 
 palette = 'catppuccin_frappe'
+add_newline = false
 
 [os]
 disabled = false

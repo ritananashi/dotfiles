@@ -8,3 +8,6 @@ zinit ice as"command" from"gh-r" \
 zinit light starship/starship
 
 zinit light z-shell/F-Sy-H
+
+zinit light zsh-users/zsh-autosuggestions
+bindkey '^ ' autosuggest-accept
