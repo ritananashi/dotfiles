@@ -70,7 +70,7 @@ truncation_symbol = "…/...../"
 [git_branch]
 symbol = " "
 style = "bg:lavender"
-format = '[[ $symbol $branch ](fg:lavender bg:crust)]($style)'
+format = '[[$symbol $branch ](fg:lavender bg:crust)]($style)'
 
 [git_status]
 style = "bg:lavender"
