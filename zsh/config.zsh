@@ -47,6 +47,9 @@ setopt no_flow_control
 # コマンドのスペルミスを指摘
 setopt correct
 
+# 補完キー連打で順に補完候補を自動で補完
+setopt auto_menu
+
 # starships theme config
 export STARSHIP_CONFIG=$HOME/dotfiles/zsh/.config/starship.toml
 

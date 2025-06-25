@@ -7,7 +7,14 @@ zinit ice as"command" from"gh-r" \
           atpull"%atclone" src"init.zsh"
 zinit light starship/starship
 
+zinit ice wait'!0'
 zinit light z-shell/F-Sy-H
 
 zinit light zsh-users/zsh-autosuggestions
 bindkey '^ ' autosuggest-accept
+
+zinit light paulirish/git-open
+
+zinit light zsh-users/zsh-completions
+
+zinit light babarot/enhancd
