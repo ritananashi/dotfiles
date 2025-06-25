@@ -25,6 +25,12 @@ zstyle ':completion:*' group-name ''
 ### 補完侯補をメニューから選択する。
 ### select=2: 補完候補を一覧から選択する。補完候補が2つ以上なければすぐに補完する。
 zstyle ':completion:*:default' menu select=2
+
+### docker complement
+fpath=(~/dotfiles/zsh/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
+ZSH_DISABLE_COMPFIX=true
+
 #################################  OTHERS  #################################
 # automatically change directory when dir name is typed
 setopt auto_cd
