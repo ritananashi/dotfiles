@@ -56,3 +56,6 @@ export STARSHIP_CONFIG=$HOME/dotfiles/zsh/.config/starship.toml
 #alias
 alias ls='ls --color'
 alias sz='source ~/.zshrc'
+
+# nvim
+export PATH="$PATH:/opt/nvim/"
