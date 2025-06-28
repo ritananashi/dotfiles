@@ -10,3 +10,8 @@
 ### 今入れてるプラグイン
 [starship](https://github.com/starship/starship)  
 [fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting)
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+[git-open](https://github.com/paulirish/git-open)
+[zsh-completions](https://github.com/zsh-users/zsh-completions)
+[enhan/cd](https://github.com/babarot/enhancd)
+
