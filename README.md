@@ -2,7 +2,7 @@
 
 ### プラグイン追加
 `zsh/plugins.zsh`に追加していく。  
-追加後、`source ~/.zshrc`（エイリアス：`sz`）。
+追加後、`source ~/.zshrc`（エイリアス：`sz`）。  
 シンボリックリンク貼るときは`./deploy.sh`
 
 ### fast-syntax-highlightingのテーマ変更
@@ -38,4 +38,7 @@ git submodule update --init --recursive
 `lua/custom/plugins`配下に`.lua`ファイルで追加していく。  
 `cp init.lua 新しいファイル.lua`で作成していく。  
 
+- LazyGit  
+  [公式ドキュメント](https://github.com/jesseduffield/lazygit)の`For Debian 12 "Bookworm", Ubuntu 25.04 "Plucky Puffin" and earlier:`のインストール方法でインストール。  
+	Ubuntuのバージョン確認してから（`lsb_release -a`）。
 
