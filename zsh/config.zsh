@@ -53,11 +53,6 @@ setopt auto_menu
 # starships theme config
 export STARSHIP_CONFIG=$HOME/dotfiles/zsh/.config/starship.toml
 
-#alias
-alias ls='ls --color'
-alias sz='source ~/.zshrc'
-alias tns='tmux new-session \; source-file ~/dotfiles/.tmux.session.conf'
-
 # nvim
 export PATH="$PATH:/opt/nvim/"
 
