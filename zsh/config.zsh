@@ -59,3 +59,7 @@ export PATH="$PATH:/opt/nvim/"
 #flyctl
 export FLYCTL_INSTALL="/home/ritananashi/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+#rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
