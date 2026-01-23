@@ -18,7 +18,7 @@ autoload -Uz compinit && compinit
 zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}' '+m:{[:upper:]}={[:lower:]}'
 
 ### 補完方法毎にグループ化する。
-zstyle ':completion:*' format '%B%F{blue}%d%f%b'
+# zstyle ':completion:*' format '%B%F{blue}%d%f%b'
 zstyle ':completion:*' group-name ''
 
 
@@ -27,8 +27,6 @@ zstyle ':completion:*' group-name ''
 zstyle ':completion:*:default' menu select=2
 
 ### docker complement
-fpath=(~/dotfiles/zsh/.zsh/completion $fpath)
-autoload -Uz compinit && compinit -i
 ZSH_DISABLE_COMPFIX=true
 
 #################################  OTHERS  #################################
@@ -45,7 +43,7 @@ setopt nolistbeep
 setopt no_flow_control
 
 # コマンドのスペルミスを指摘
-setopt correct
+# setopt correct
 
 # 補完キー連打で順に補完候補を自動で補完
 setopt auto_menu
@@ -57,7 +55,7 @@ export STARSHIP_CONFIG=$HOME/dotfiles/zsh/.config/starship.toml
 export PATH="$PATH:/opt/nvim/"
 
 #flyctl
-export FLYCTL_INSTALL="/home/ritananashi/.fly"
+export FLYCTL_INSTALL="$HOME/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 #rbenv
